@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  python:
+    image: python:3-alpine
+    tty: true
+    working_dir: /home
+    volumes:
+      - .:/home
