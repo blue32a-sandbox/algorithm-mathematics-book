@@ -1,4 +1,4 @@
-# 2.1.3 N個の整数の合計を出力するプログラム
+# 003 - Sum of N Integers
 _N = int(input())
 A = list(map(int, input().split()))
 answer = 0
