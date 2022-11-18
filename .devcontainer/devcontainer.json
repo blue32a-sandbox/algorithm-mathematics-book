@@ -1,0 +1,13 @@
+{
+    "name": "Python",
+    "dockerComposeFile": ["../docker-compose.yml"],
+    "service": "python",
+    "postCreateCommand": "apk update && apk add -U --no-cache openssh git",
+    "workspaceFolder": "/home",
+    "extensions": [
+        "EditorConfig.EditorConfig",
+        "mhutchie.git-graph",
+        "eamodio.gitlens",
+        "ms-python.python"
+    ]
+}

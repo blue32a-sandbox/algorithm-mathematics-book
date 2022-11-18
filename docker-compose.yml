@@ -6,4 +6,4 @@ services:
     tty: true
     working_dir: /home
     volumes:
-      - .:/home
+      - .:/home:cached
